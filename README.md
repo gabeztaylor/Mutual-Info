@@ -18,7 +18,7 @@ This notebook presents an extension for computing the estimator of mutual inform
 ## Mutual Information of Two Random Variables
 
 
-<img src="https://latex.codecogs.com/gif.latex?I(X;Y) = \int \int p_{X, Y}(x, y) \log \frac{p_{X, Y}(x, y)}{p_X(x)p_Y(y)} dxdy " /> 
+$$\int \int p_{X, Y}(x, y) \log \frac{p_{X, Y}(x, y)}{p_X(x)p_Y(y)} dxdy$$
 
 
 
