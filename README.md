@@ -17,9 +17,10 @@ This notebook presents an extension for computing the estimator of mutual inform
 
 ## Mutual Information of Two Random Variables
 
-```math
-I(X;Y) = \int \int p_{X, Y}(x, y) \log \frac{p_{X, Y}(x, y)}{p_X(x)p_Y(y)} dxdy
-```
+
+<img src="https://latex.codecogs.com/gif.latex?I(X;Y) = \int \int p_{X, Y}(x, y) \log \frac{p_{X, Y}(x, y)}{p_X(x)p_Y(y)} dxdy " /> 
+
+
 
 Notice that this takes the shape of the [Kullback-Leibler Divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence). Also recall that if $X$ and $Y$ are completely independent, then the joint probability distribution is the product of the marginals. In this case, indepedent continuous random variables yield a mutual information of 0, which can be observed above.
 
